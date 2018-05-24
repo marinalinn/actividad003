@@ -1,0 +1,16 @@
+body{
+	background-color: white;
+	}
+#imagen{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-index: 1;
+	}
+
+#ribbon{
+	position: absolute;
+	left: 122px;
+	top: 135px;
+	z-index: 2;
+	}
