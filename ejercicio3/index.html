@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 3: Banderas</title>
+	<style type="text/css">
+	.row{
+		width: 40%;
+		margin:0px;
+		margin-left: 30px;
+		padding: 0px;
+		display: inline-block;
+	}
+
+	.bandera{
+		width: 300px;
+		height: 200px;
+		border: solid 1px #cdcdcd;
+		margin-bottom: 10px;
+		margin-right: 30px;
+
+	}
+
+	p {
+		color: #404646;
+		font-size: 14px;
+	}
+
+	.bandera.espana {
+		background-color: red;
+	}
+
+	.bandera.espana:after{
+		content: '';
+    	display: block;
+    	background: yellow;
+    	width: 300px;
+    	height: 6em;
+    	position: absolute;
+    	margin-top: 3.1em;
+	}
+
+	.bandera.emiratos{
+		background-color: white;
+
+	}
+
+	.franjaroja{
+		width: 25%;
+		height: 100%;
+		background-color: red;
+		float: left;
+	}
+
+	.franjaverde{
+		width: 75%;
+		height: 66.6px;
+		background-color: green;
+		float: right;
+	}
+
+
+	.franjanegro{
+		width: 75%;
+		height: 66.6px;
+		background-color: black;
+		margin-top: 4.2em;
+		float: right;
+	}
+
+
+	.bandera.dinamarca {
+		background-color: red;
+	}
+
+	.bandera.dinamarca:after{
+		content: '';
+    	display: block;
+    	background: white;
+    	width: 300px;
+    	height: 1.5em;
+    	position: absolute;
+    	margin-top: 5.8em;
+	}
+
+	.bandera.dinamarca:before{
+		content: '';
+    	display: block;
+    	background: white;
+    	width: 1.5em;
+    	height: 200px;
+    	position: absolute;
+    	margin-left: 6em;
+	}
+
+
+	.bandera.japon:after {
+    	content: '';
+    	display: block;
+    	background: red;
+    	width: 6em;
+    	height: 6em;
+    	position: absolute;
+    	transform: translate(6.4em, 3.2em); /* PORQUEEEEEE??? */
+    	border-radius: 50%;
+	}
+/*
+	#redcircle {
+	width: 50px;
+	height: 50px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-top: auto;
+	margin-left: 33%;
+}
+*/
+
+
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="bandera espana">
+		</div>
+			<p>España</p>
+		<div class="bandera emiratos">
+			<div class="franjaroja">
+			</div>
+			<div class="franjaverde">
+			</div>
+			<div class="franjanegro">
+			</div>
+		</div>
+			<p>Emiratos Árabes</p>
+	</div>
+	<div class="row">
+		<div class="bandera dinamarca">
+		</div>
+			<p>Dinamarca</p>
+		<div class="bandera japon">
+		</div>
+			<p>Japón</p>
+	</div>
+
+</body>
+</html>
