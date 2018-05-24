@@ -1,0 +1,16 @@
+body{
+	width: 100vw;
+	height: 1800px;
+	background-color: #cdcdcd;
+}
+
+body img{
+	float: right;
+}
+
+body img.ribbon{
+	position: fixed;
+	top: 0;
+	left: 94.5%;
+}
+
